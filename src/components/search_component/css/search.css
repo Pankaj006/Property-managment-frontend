@@ -1,0 +1,56 @@
+.card {
+
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 15px 0;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    position: relative;
+    z-index: 9;
+    
+}
+   
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  #search-content {
+    padding-left: 75px;
+    padding-right: 75px;
+    margin-top: 2%;
+  }
+
+
+  .search-heading{
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 2.42857rem;
+    line-height: 1.22;
+    letter-spacing: -.9px;
+    font-weight: 700;
+    /* color: #dc3545;     */
+    color: #ffc107;
+    padding-left: 35%;
+
+  }
+
+  .search-filter{
+    position: absolute;
+     top: 40%;
+     padding-left: 10%;
+     padding-right: 10%;
+ }
+
+  .search-paragraph{
+
+    margin-top: 0;
+    font-size: 1.71429rem;
+    line-height: 1.5;
+    /* color: #ffc107; */
+    color: #dc3545; 
+    padding-left:38%;
+  }
+
+ 

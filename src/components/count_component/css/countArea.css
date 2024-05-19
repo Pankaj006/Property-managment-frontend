@@ -1,0 +1,52 @@
+.count-area {
+    position: relative;
+    background-color: #FCFCFC;
+    margin-top: 2%;
+    
+}
+
+
+
+.percent-blocks {
+    padding-top: 45px;
+    padding-bottom: 70px;
+}
+
+.count-area .count-item {
+    text-align: center;
+}
+
+.count-area .count-item-circle {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #777;
+    border-radius: 100%;
+    margin: 0px auto;
+    position: relative;
+}
+
+.count-item-circle span {
+    font-size: 40px;
+    height: 57px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: auto;
+    right: 0px;
+}
+
+.count-area .chart {
+    position: relative;
+    color: #dc3545;
+}
+
+.count-item h5 {
+    font: 500 15px "Open Sans", sans-serif;
+    padding: 2px 15px;
+    text-transform: uppercase;
+    margin: 0px;
+    border-left: 2px solid #FDC600;
+    border-right: 2px solid #FDC600;
+    display: inline-block;
+}

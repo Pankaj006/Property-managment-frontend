@@ -1,0 +1,55 @@
+.infinity-image-container-place-ad{
+	background: url('../img/Houses.gif') center no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.steps {
+	display: inline-block;
+	width: 50px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 50%;
+	background-color: #63d19e;
+	margin: 0 10px;
+	color: #fff;
+  }
+  
+  .current-step {
+	background-color: #ffcc00;
+	color: #fff;
+	width: 55px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 1.2em;
+  }
+  
+  .line {
+	display: inline-block;
+	width: 120px;
+	height: 2px;
+	background-color: #63d19e;
+	vertical-align: middle;
+  }
+  
+  .completed-line {
+	background-color: #ffcc00;
+  }
+  
+  .progresses {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+  }
+  
+.previous-step{
+
+float: left;
+}
+
+.next-step{
+
+	float: right;
+}

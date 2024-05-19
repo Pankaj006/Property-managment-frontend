@@ -1,0 +1,22 @@
+
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* html,body{
+
+    width: 95%;
+    margin: auto;
+}   */
+
+select.form-select:focus {
+    border-color: #dc3545;
+}
+
+.form-select-lg {
+
+    border-color:#ffc107 ;
+  }
